@@ -1,0 +1,258 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	margin:0;
+	font-family: Arial;
+	font-size: 17px;
+	color: black;
+	line-height: 1.6;
+	text-align: center;
+	background: #FFF4EA;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-attachment: fixed;
+}
+
+#header{
+	background-image: url('imagen2.png');
+	background-size: cover; 
+	background-position: center;
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding:0 20px;
+	color: blanchedalmond;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	text-emphasis: center;
+}
+
+#header h1{
+	font-size: 50px;
+}
+
+#header p{
+	font-size: 20 px;
+}
+
+#header .button{
+	font-size: 18px;
+	text-decoration:none;
+	color:rgb(255, 255, 255);
+	border: rgb(255, 255, 255) 1px solid;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-top: 20px;
+
+}
+
+#header .button:hover{
+	background: orangered;
+}
+
+#navbar {
+	margin:auto;
+	width:1350px;
+	height: 30px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Questrial', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+	display: flex;
+	justify-content: center; 
+	background:#FF7D00; 
+	color: coral;	
+
+	}
+
+
+#navbar a{
+	color:white;
+	padding: 0 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+ul, ol {
+	list-style:none;
+}
+
+.nav li a {
+	background-color:#FF7D00;
+	color:#fff;
+	background-size: cover;
+	background-position: center;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+.nav > li {
+	float:left;
+}
+
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.nav li:hover > ul {
+	display:block;
+}
+
+.nav li ul li {
+	position:relative;
+}
+
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}
+
+#section-a{
+	padding: 20px;
+	color: black;
+	text-align:center;
+	align-content : center;
+}
+
+#section-b{
+	color: black;
+	padding: 30px;
+    text-align: center;
+
+}
+#section-c{
+    
+    display: flex;
+	color: black;
+	padding: 20px;
+	background: burlywood;
+	text-align: center;
+	
+}
+#section-c div{
+    
+    padding: 20;
+}
+#section-c .box-1, #section-c .box-3 {
+	background: orange;
+	color:black;
+    display: flex;
+}
+
+#section-c .box-2{
+	background: #fff;
+	padding: 20;
+
+}
+
+ #section-c .box-3 {
+	background: orange;
+	color:black;
+  
+}
+
+
+#nombre{
+
+font-family: 'Bree Serif', serif;
+text-align: left;
+}
+
+.img-valign {
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+}
+
+.text1 {
+  font-size: 24px;
+}
+
+.text2 {
+  font-size: 24px;
+}
+img-valign {
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+}
+
+.text1 {
+  font-size: 24px;
+}
+
+.text2 {
+  font-size: 24px;
+}
+
+img-valign {
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+}
+
+.text1 {
+  font-size: 24px;
+}
+
+.text2 {
+  font-size: 24px;
+}
+img-valign {
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+}
+
+.text1 {
+  font-size: 24px;
+}
+
+.text2 {
+  font-size: 24px;
+}
+/*
+.foto1 {
+    padding: 20px;
+    margin: 10px;
+   justify-content:flex-start;
+    width: 280px;
+}
+
+.foto2 {
+    padding: 20px;
+    margin: 10px;
+    float: center; 
+    width: 350px;
+}
+
+.foto3 {
+    padding: 20px;
+    margin :10px;
+    float: right;
+    width: 350px;
+}
+
+.foto4 {
+    padding: 20px;
+    margin: 10px;
+    float: left; 
+    width: 280px;
+}
+.foto5 {
+    padding: 20px;
+    margin: 10px;
+    float: center; 
+    width: 350px;
+}
+
+.foto6 {
+    padding: 20px;
+    margin :10px;
+    float: right;
+    width: 350px;
+}
+
+
