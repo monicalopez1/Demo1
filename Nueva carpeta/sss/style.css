@@ -19,7 +19,7 @@ body{
 	background-image: url('imagen2.png');
 	background-size: cover; 
 	background-position: center;
-	height: 60vh;
+	height: 50vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -44,9 +44,9 @@ body{
 	text-decoration:none;
 	color:rgb(255, 255, 255);
 	border: rgb(255, 255, 255) 1px solid;
-	padding: 10px 20px;
+	padding: 2px 20px;
 	border-radius: 10px;
-	margin-top: 20px;
+	margin-top: 10px;
 
 }
 
@@ -54,11 +54,124 @@ body{
 	background: orangered;
 }
 
+#img1{
+    background-image: url('abstract-architecture-background-194096.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+#img1 h1{
+    font-size: 50px;
+    color: white;
+}
+
+#img1 p{
+    font-size: 20px;
+    color: white;
+}
+
+#img1 .button1{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border:orange 1px solid;
+    padding: 2px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#img1 .button1:hover{
+    background: orangered;
+    color:#fff;
+}
+
+
+#img2{
+    background-image: url('pexels-photo-276514.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+#img2 h1{
+    font-size: 50px;
+    color: white;
+}
+
+#img2 p{
+    font-size: 20px;
+    color: white;
+}
+
+#img2 .button2{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border:orange 1px solid;
+    padding: 2px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#img2 .button1:hover{
+    background: orangered;
+    color:#fff;
+}
+
+#img3{
+    background-image: url('abstract-brick-bricks-207204.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+#img3 h1{
+    font-size: 50px;
+    color: white;
+}
+
+#img3 p{
+    font-size: 20px;
+    color: white;
+}
+
+#img3 .button3{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border:orange 1px solid;
+    padding: 2px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#img3 .button3:hover{
+    background: orangered;
+    color:#fff;
+}
+
+
 #navbar {
 	margin:auto;
 	width:1350px;
-	height: 30px;
-	font-family: 'PT Sans Narrow', sans-serif;
+	height: 35px;
+	font-family: 'PT Sansjustify-content: space-between;Narrow', sans-serif;
 	font-family: 'Quicksand', sans-serif;
 	font-family: 'Questrial', sans-serif;
 	font-family: 'Source Code Pro', monospace;
@@ -72,7 +185,7 @@ body{
 
 #navbar a{
 	color:white;
-	padding: 0 30px;
+	padding: 0 50px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -131,7 +244,7 @@ ul, ol {
     display: flex;
 	color: black;
 	padding: 20px;
-	background: burlywood;
+	background:#FDA947 ;
 	text-align: center;
 	
 }
@@ -157,102 +270,87 @@ ul, ol {
   
 }
 
-
 #nombre{
 
 font-family: 'Bree Serif', serif;
 text-align: left;
+float: left;
+background-color: ##FF7D00;
+    
 }
 
-.img-valign {
-  vertical-align: middle;
-  margin-bottom: 0.75em;
+#menu{
+    display: flex;
+    flex-direction: row-reverse;
+   justify-content: space-around;
+    list-style: none;
+    padding: 50px;
 }
 
-.text1 {
-  font-size: 24px;
+
+#menu .button3{
+	font-size: 18px;
+	text-decoration:none;
+	color: black;
+	border: black 1px solid;
+	padding: 2px 20px;
+	border-radius: 10px;
+    margin-top: 10px;
+    width: 150px;
+
 }
 
-.text2 {
-  font-size: 24px;
-}
-img-valign {
-  vertical-align: middle;
-  margin-bottom: 0.75em;
+#menu .button3:hover{
+    background: orange;
+   
 }
 
-.text1 {
-  font-size: 24px;
+#menu a{
+    text-decoration: none;
+    color: black;
+
 }
 
-.text2 {
-  font-size: 24px;
+#menu .button2{
+	font-size: 18px;
+	text-decoration:none;
+	color:rgb(255, 255, 255);
+	border: black 1px solid;
+	padding: 2px 50px;
+	border-radius: 10px;
+    margin-top: 10px;
+    width: 150px;
 }
 
-img-valign {
-  vertical-align: middle;
-  margin-bottom: 0.75em;
+#menu .button2:hover{
+	background: orange;
 }
 
-.text1 {
-  font-size: 24px;
+#menu a{
+    text-decoration: none;
 }
 
-.text2 {
-  font-size: 24px;
-}
-img-valign {
-  vertical-align: middle;
-  margin-bottom: 0.75em;
-}
-
-.text1 {
-  font-size: 24px;
-}
-
-.text2 {
-  font-size: 24px;
-}
-/*
-.foto1 {
-    padding: 20px;
-    margin: 10px;
-   justify-content:flex-start;
-    width: 280px;
+#menu .button1{
+	font-size: 18px;
+	text-decoration:none;
+	color:rgb(255, 255, 255);
+	border: black 1px solid;
+	padding: 2px 20px;
+	border-radius: 10px;
+    margin-top: 10px;
+    width: 150px;
 }
 
-.foto2 {
-    padding: 20px;
-    margin: 10px;
-    float: center; 
-    width: 350px;
+#menu .button1:hover{
+	background: orange;
 }
 
-.foto3 {
-    padding: 20px;
-    margin :10px;
-    float: right;
-    width: 350px;
+#menu a{
+    text-decoration: none;
 }
 
-.foto4 {
-    padding: 20px;
-    margin: 10px;
-    float: left; 
-    width: 280px;
-}
-.foto5 {
-    padding: 20px;
-    margin: 10px;
-    float: center; 
-    width: 350px;
-}
 
-.foto6 {
-    padding: 20px;
-    margin :10px;
-    float: right;
-    width: 350px;
-}
+
+
 
 

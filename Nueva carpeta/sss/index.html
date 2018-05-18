@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -8,27 +10,31 @@
         <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <title>Landing page</title>
-        <style type=""text/css>
-
+         <style type=""text/css> 
         </style>
-        
+        <script languaje="Javascript">   
+<!--  
+document.write('<style type="text/css">div.cp_oculta{display: none;}</style>');  
+function MostrarOcultar(capa,enlace)  
+{  
+    if (document.getElementById)  
+    {  
+        var aux = document.getElementById(capa).style;  
+        aux.display = aux.display? "":"block";  
+    }  
+} 
+            </script>
     </head>
     <body>
         
-       
+        
     <div id="navbar">
         <ul class="nav">
                 
-          <div><a  href="" id = "nombre">Nombre del establecimiento</a></div>
-          <img src="web_hi_res.png" border="0" width="30" height="30" align="left" >
+             <li> <img src="LOgoo.png" border="0" width="50" height="50" align="left" >
+           <a  href="" id = "nombre">Nombre del establecimiento</a> </li>
+          
                 <li><a href="">Inicio</a></li>
-          <li><a href="">Servicios</a>
-                <ul>
-					<li><a href="">Submenu1</a></li>
-					<li><a href="">Submenu2</a></li>
-                        
-                </ul>
-            </li>
             <li><a href="">Productos</a>
                 <ul>
 					<li><a href="">Submenu1</a></li>
@@ -49,60 +55,71 @@
 
 <header id="header">
         <h1>Que ofrece</h1>
-            <p> Un breve desrcipcion de lo que ofrece y a que se dedica. </p>
-            <a href="#" class="button">Leer mas</a>
+            <p> Un breve desrcipcion de lo que ofrece y a que se dedica.
+    </p>
+    
+    <div class="cp_oculta" id="texto1">
+        
+    <p>abcdefghijklmnopqrstuvwxyz </p>
+    </div>
+           <p><a href="javascript:MostrarOcultar('texto1');" class="button">Leer mas</a></p>
 </header>
 
 
      <section id="section-a">
-        <h2>Inicio</h2>
-        <p> jkjfdskfjdskfjdskfdsjfkdsfjdskfjds </p>
+        <h2>Tipos</h2>
+        <p> jkjfdskfjdskfjdskfdsjfkdsfjdskfjds kjlkjhgfdfghjkiuytre</p>
          </section>
         
-        <div>
-  
-  <img class="img-valign" src="images%20copia.PNG" alt="" width="150px" />
-  <span class="text2">some text2</span>
-  <img class="img-valign" src="images%20copia.PNG" alt="" width="150px" />
-  <span class="text2">some text2</span>
-  
-</div>
-        <div>
-  
-  <img class="img-valign" src="images%20copia.PNG" alt="" width="150px" />
-  <span class="text2">some text2</span>
-  <img class="img-valign" src="images%20copia.PNG" alt="" width="150px" />
-  <span class="text2">some text2</span>
-  
-</div>
+    <div id="img1">
+   <h1>Azul </h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<a href="#" class="button1">Ver más</a>
         
-     
-    <div id="section-b">
-        <h2>Precios</h2>
+  </div>
+       
+        <div id="img2">
+            
+   <h1>Rojo</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<a href="#" class="button2">Ver más</a>
+          </div>
+                
+        <div id="img3">
+   <h1>Azul </h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<a href="#" class="button3">Ver más</a>
+        
+  
+  </div>
+        
+        <div id="section-b">
+        <h2>Idk</h2>
         <p> asdfghjkl </p>
+</div>
+        <div class="imagenes">
 
-        </div>
-        
-         <div>
-  
-  <img class="img-valign" src="images%20copia.PNG" alt="" width="150px"/>
-  <span class="text2">some text2</span>
-  <img class="img-valign" src="images%20copia.PNG" alt="" width="150px" />
-  <span class="text2">some text2</span>
-  
-</div>
-        <div>
-  
-  <img class="img-valign" src="images%20copia.PNG" alt="" width="150px"/>
-  <span class="text2">some text2</span>
-  <img class="img-valign" src="images%20copia.PNG" alt="" width="150px" />
-  <span class="text2">some text2</span>
-  
-</div>
-        <div id="section-d">
+            <ul id="menu">
+                
+                    <li><a href="" title=""><img src="pexels-photo-259915.jpeg" alt="descripcion" width="450px" height="300" /></a>
+                  <div class="button3" align="center" ><a href="#">fkdkfdlsklfdkldsf <a></div> </li>
+
+                    <li><a href="" title=""><img src="pexels-photo-269063.jpeg" alt="descripcion" width="450px" height="300" /> </a>
+                    <div class="button2" align="center"><a href="#">fkdkfdlsklfdkldsf</a></div> </li>
+
+                    <li><a href="" title=""><img src="pexels-photo-938968.jpeg" alt="descripcion" width="450px" height="300" /></a>
+                        <div class="button1" align="center"><a href="#" >fkdkfdlsklfdkldsf</a> </div>   </li>
+                </ul>
+    </div>
+                      
+                    
+
+        <div id="section-d" >
         <h2>Más información</h2>
         </div>
         
+                    
+                
     <section id="section-c">
 
         <div class="box1">
