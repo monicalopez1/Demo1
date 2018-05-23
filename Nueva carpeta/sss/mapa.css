@@ -13,7 +13,6 @@ body{
 	background: #FFF4EA;
 	font-family: 'PT Sans Narrow', sans-serif;
 	background-attachment: fixed;
-    flex-wrap:no-wrap:
 }
 
 #header{
@@ -66,7 +65,6 @@ body{
     align-items: center;
     padding: 50px;
     text-align: center;
-    flex-grow:1;
 }
 #img1 h1{
     font-size: 50px;
@@ -105,7 +103,6 @@ body{
     align-items: center;
     padding: 50px;
     text-align: center;
-    flex-grow:1;
 }
 #img2 h1{
     font-size: 50px;
@@ -143,7 +140,6 @@ body{
     align-items: center;
     padding: 50px;
     text-align: center;
-    flex-grow:1;
 }
 #img3 h1{
     font-size: 50px;
@@ -173,7 +169,7 @@ body{
 
 #navbar {
 	margin:auto;
-	width:1340px;
+	width:1350px;
 	height: 35px;
 	font-family: 'PT Sansjustify-content: space-between;Narrow', sans-serif;
 	font-family: 'Quicksand', sans-serif;
@@ -230,19 +226,6 @@ ul, ol {
 	top:0px;
 }
 
-#section-a{
-	padding: 20px;
-	color: black;
-	text-align:center;
-	align-content : center;
-}
-
-#section-b{
-	color: black;
-	padding: 30px;
-    text-align: center;
-
-}
 
 #section-c{
     
@@ -254,11 +237,9 @@ ul, ol {
     list-style: none;
     justify-content: space-around;
     align-items: center;
-    flex-grow:1;
 	
 }
 #section-c div{
-    
     padding: 20;
 }
 #section-c .box-1, #section-c .box-3 {
@@ -266,12 +247,12 @@ ul, ol {
     display: flex;
 }
 
+
 #section-c .box-2{
 	background: #fff;
 	padding: 20;
 
 }
-
  
 #section-d{
 	color: black;
@@ -296,154 +277,10 @@ background-color: ##FF7D00;
 }
 
 
-/*botones imagenes*/
-
-#menu{
-    display: flex;
-    flex-direction: row-reverse;
-   justify-content: space-around;
-    list-style: none;
-    background-attachment: fixed;
-    flex-grow:1;
+#mapa1{
+    padding: 100px;
+    justify-content:center;
+align-items:center;
 }
-
-
-#menu .button3{
-	font-size: 18px;
-	text-decoration:none;
-	color: black;
-	padding: 2px 20px;
-	border-radius: 10px;
-    margin-top: 10px;
-    width: 150px;
-
-}
-
-#menu .button3:hover{
-    background: orange;
-   
-}
-
-#menu a{
-    text-decoration: none;
-    color: black;
-
-}
-
-#menu .button2{
-	font-size: 18px;
-	text-decoration:none;
-	color:rgb(255, 255, 255);
-	border: black 1px solid;
-	padding: 2px 50px;
-	border-radius: 10px;
-    margin-top: 10px;
-    width: 150px;
-}
-
-#menu .button2:hover{
-	background: orange;
-}
-
-#menu a{
-    text-decoration: none;
-}
-
-#menu .button1{
-	font-size: 18px;
-	text-decoration:none;
-	color:rgb(255, 255, 255);
-	border: black 1px solid;
-	padding: 2px 20px;
-	border-radius: 10px;
-    margin-top: 10px;
-    width: 150px;
-}
-
-#menu .button1:hover{
-	background: orange;
-}
-
-#menu a{
-    text-decoration: none;
-}
-
-/*botones segundos de las imagenes*/
-#menu1{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    list-style: none;
-    background-attachment: fixed;
-    flex-grow:1;
-}
-
-
-#menu1 .button3{
-	font-size: 18px;
-	text-decoration:none;
-	color: black;
-	border: black 1px solid;
-	padding: 2px 20px;
-	border-radius: 10px;
-    margin-top: 10px;
-    width: 150px;
-
-}
-
-#menu1 .button3:hover{
-    background: orange;
-   
-}
-
-#menu1 a{
-    text-decoration: none;
-    color: black;
-
-}
-
-#menu1 .button2{
-	font-size: 18px;
-	text-decoration:none;
-	color:rgb(255, 255, 255);
-	border: black 1px solid;
-	padding: 2px 20px;
-	border-radius: 10px;
-    margin-top: 10px;
-    width: 150px;
-
-
-}
-
-#menu1 .button2:hover{
-	background: orange;
-}
-
-#menu1 a{
-    text-decoration: none;
-}
-
-#menu1 .button1{
-	font-size: 18px;
-	text-decoration:none;
-	color:rgb(255, 255, 255);
-	border: black 1px solid;
-	padding: 2px 20px;
-	border-radius: 10px;
-    margin-top: 10px;
-    width: 150px;
-
-
-}
-
-#menu1 .button1:hover{
-	background: orange;
-}
-
-#menu1 a{
-    text-decoration: none;
-}
-
-
 
 
