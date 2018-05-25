@@ -52,7 +52,7 @@ body, html {
 }
 
 #header .button:hover{
-	background: orangered;
+	background: orange;
 }
 
 #img1{
@@ -89,7 +89,7 @@ body, html {
 }
 
 #img1 .button1:hover{
-    background: orangered;
+    background: orange;
     color:#fff;
 }
 
@@ -127,8 +127,8 @@ body, html {
     margin-top: 10px;
 }
 
-#img2 .button1:hover{
-    background: orangered;
+#img2 .button2:hover{
+    background: orange;
     color:#fff;
 }
 
@@ -144,15 +144,18 @@ body, html {
     padding: 40px;
     text-align: center;
     flex-grow:1;
+    
 }
 #img3 h1{
     font-size: 50px;
     color: white;
+    text-shadow: 2px 2px #000;
 }
 
 #img3 p{
     font-size: 20px;
     color: white;
+    text-shadow: 2px 2px #000;
 }
 
 #img3 .button3{
@@ -166,69 +169,62 @@ body, html {
 }
 
 #img3 .button3:hover{
-    background: orangered;
+    background: orange;
     color:#fff;
 }
 
 
 
-#navbar {
-	margin:auto;
-	width:1340px;
-	height: 35px;
-	font-family: 'PT Sansjustify-content: space-between;Narrow', sans-serif;
-	font-family: 'Quicksand', sans-serif;
-	font-family: 'Questrial', sans-serif;
-	font-family: 'Source Code Pro', monospace;
-	display: flex;
-	justify-content: center; 
-	background:#FF7D00; 
-	color: coral;
-
-	}
-
-
-#navbar a{
-	color:white;
-	padding: 0 50px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-ol, ol {
-	list-style:none;
+a:hover{
+  color:gray;
+  text-decoration: none;
 }
 
-.nav li a {
-	background-color:#FF7D00;
-	color:#fff;
-	background-size: cover;
-	background-position: center;
-	text-decoration:none;
-	padding:10px 12px;
-	display:block;
+#head{
+
+  display: flex;
+  background: orange;
+  padding-top: 20px;
+  justify-content: space-around;
+  flex-grow: row wrap;
 }
 
-.nav > li {
-	float:left;
+.child{
+
+  flex-grow: 1;
+
 }
 
-.nav li ol {
-	display:none;
-	position:absolute;
-	min-width:140px;
+ol{
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  width: 400px;
+  margin: 0;  padding: 0; 
 }
 
-.nav li:hover > ol {
-	display:block;
+ol li{
+  flex-grow: 1;
+  text-align: center;
+  width: 100px;
+}
+ol li a{
+  color: #fff;
+  font-size: 1 em;
+  text-transform: uppercase;
+  text-decoration: none;
+
 }
 
-.nav li ol li {
-	position:relative;
+head div:nth-child(1) {
+  flex-grow:8;
+  width: 125px;
+  padding-top: 15px;
+
 }
 
-.nav li ol li ol {
-	right:-140px;
-	top:0px;
+head div:nth-child(1) img{
+  margin-left: 30px;
 }
 
 #section-a{

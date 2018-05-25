@@ -51,63 +51,54 @@ body{
 }
 
 #header .button:hover{
-	background: orangered;
+	background: orange;
 }
-#navbar {
-	margin:auto;
-	width:1350px;
-	height: 35px;
-	font-family: 'PT Sansjustify-content: space-between;Narrow', sans-serif;
-	font-family: 'Quicksand', sans-serif;
-	font-family: 'Questrial', sans-serif;
-	font-family: 'Source Code Pro', monospace;
-	display: flex;
-	justify-content: center; 
-	background:#FF7D00; 
-	color: coral;	
+#head{
 
-	}
-
-
-#navbar a{
-	color:white;
-	padding: 0 50px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-ul, ol {
-	list-style:none;
+  display: flex;
+  background: orange;
+  padding-top: 20px;
+  justify-content: space-around;
+  flex-grow: row wrap;
 }
 
-.nav li a {
-	background-color:#FF7D00;
-	color:#fff;
-	background-size: cover;
-	background-position: center;
-	text-decoration:none;
-	padding:10px 12px;
-	display:block;
+.child{
+
+  flex-grow: 1;
+
 }
 
-.nav > li {
-	float:left;
+ol{
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  width: 400px;
+  margin: 0;  padding: 0; 
 }
 
-.nav li ul {
-	display:none;
-	position:absolute;
-	min-width:140px;
+ol li{
+  flex-grow: 1;
+  text-align: center;
+  width: 100px;
+}
+ol li a{
+  color: #fff;
+  font-size: 1 em;
+  text-transform: uppercase;
+  text-decoration: none;
+
 }
 
-.nav li:hover > ul {
-	display:block;
+head div:nth-child(1) {
+  flex-grow:8;
+  width: 125px;
+  padding-top: 15px;
+
 }
 
-.nav li ul li {
-	position:relative;
+head div:nth-child(1) img{
+  margin-left: 30px;
 }
 
-.nav li ul li ul {
-	right:-140px;
-	top:0px;
-}
+
+
